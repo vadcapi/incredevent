@@ -19,11 +19,11 @@ option {
 
 #grad1, #grad2, #grad3, #grad4 {
     position: absolute;
-    background-image: radial-gradient(closest-side, #242F57, #00000000);
     z-index: -1;
 }
 
 #grad1 {
+    background-image: radial-gradient(closest-side, #242F57, #00000000);
     width: 80rem;
     height: 80rem;
     left: -20rem;
@@ -31,6 +31,7 @@ option {
 }
 
 #grad2 {
+    background-image: radial-gradient(closest-side, #242F57, #00000000);
     width: 90rem;
     height: 65rem;
     right: -40rem;
@@ -38,6 +39,7 @@ option {
 }
 
 #grad3 {
+    background-image: radial-gradient(closest-side, #1f3436, #00000000);
     width: 50rem;
     height: 50rem;
     right: 5rem;
@@ -45,6 +47,7 @@ option {
 }
 
 #grad4 {
+    background-image: radial-gradient(closest-side, #260f39, #00000000);
     width: 90rem;
     height: 90rem;
     left: -30rem;
