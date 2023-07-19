@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>✅ About Us</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="header1">
+        <div id="h1Left">
+            <img src="./res/img/earth.png" alt="earth icon">
+            <select id="langSelect">
+                <option value="enCad">EN/CAD</option>
+                <option value="enUsd">EN/USD</option>
+                <option value="frCad">FR/CAD</option>
+            </select>
+            <a href=""><img src="./res/img/qmark.png" alt="Question Mark"></a>
+            <a href=""><div id="release" :style="{ fontSize: releaseFontSize }">Latest feature release, click to learn more.</div>
+            </a>
+        </div>
+        <div id="h1Right">
+            <a id="buy" href="">Buy</a>
+            <a href="">Plan</a>
+            <a href="">Promo</a>
+            <a href="" id="bell"><img  src="./res/img/bell.png" alt="bell icon"></a>
+            <a href="" id="calendar"><img src="./res/img/calendar.png" alt="calendar icon">2</a>
+            <a href="" id="profile"><img src="./res/img/profile.png" alt="profile image"></a>
+        </div>
+    </div>
+    <div id="header2">
+        <div id="h2Left">
+            <img src="./res/img/logo.png" alt="incredevent logo">
+            <h2>About Us</h2>
+        </div>
+        <div id="h2Right">
+            <a href=""><img src="./res/img/wand.png" alt="">Event & Brand Search</a>
+        </div>
+    </div>
+    <div id="main">
+        <div id="grad1"></div>
+        <div id="grad2"></div>
+        <div id="grad3"></div>
+        <div id="grad4"></div>
+        <div id="flex1">
+            <div id="text1">
+                <h1>Our People</h1>
+                <p>This is our team, a lot of smiling happy people who work hard to empower your brands.</p>
+            </div>
+            <iframe id="player" src="https://www.youtube.com/embed/0-dGg9EpK10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div id="text2">
+            <p>INCREDEVENT is an event managment SaaS tool focusing on event ticketing, pre-production and production tools, guest lists and VIP. The platfotm offers unique services to buyers, planners and promoters with second-to-none customer support rated 5 stars by our clients and their customers      </p>
+        </div>
+        <div id="text3">
+            <h2>Who is INCREDEVENT for?</h2>
+            <div class="blue">
+                <h2>Buyers</h2>
+                <p>Buyers are offended a no nonsense, fair fee buying system with conditionally evolving scalper and price gouging proof tools. Our mission is to democratize event managment and junk fees.</p>
+            </div>
+            <div class="green">
+                <h2>Planners</h2>
+                <p>Planners can encrease dozens of features and essentially run their in-persom, virtual and hubrid Incredible Events from their dashboard; email, ticketing, seating guest lists and VIP, promoter managment, and many other features round our unique platform built by event planner for event planners.</p>
+            </div>
+            <div class="orange">
+                <h2>Promoters</h2>
+                <p>Promoters can finally do away with the often ambiguous relationship they have with planners. Cash codes, custom links, commision tables, reciprocal payout systems, and promotions tools offer promoters, influencers, affiliates, and vendors the tracking needed to find success working for planners.</p>
+            </div>
+        </div>
+        <div id="text4">
+            <p>If you're looking for a new take on an old industry, INCREDIVENT will take your Incredible Events to new heights. As an alternative to TicketMaster, Eventbrite and other event managment platforms, we strive to create a community for event planners and buyers with tools that matter and constantly evolve.</p>
+        </div>
+        <div id="text5">
+            <p>INCREDIBLE events are hosted here.</p>
+        </div>
+        <a id="started" href=""><p>Get Started</p></a>  
+        <div id="footer1">
+            <img src="./res/img/logo.png" alt="">
+            <div id="fTable">
+                <div>
+                    <h3>Sitemap</h3>
+                    <a href="">Browse Events</a>
+                    <a href="">About Incredevent</a>
+                    <a href="">Roadmap</a>
+                    <a href="">Blogs</a>
+                    <a href="">Learn</a>
+                    <a href="">Log Out</a>
+                </div>
+                <div>
+                    <h3>Assistance</h3>
+                    <a href="">FAQ</a>
+                    <a href="">Tutorials</a>
+                    <a href="">Conact Us</a>
+                    <a href="">Buyer Features</a>
+                    <a href="">Planner Features</a>
+                    <a href="">Promoter Features</a>
+                </div>
+                <div>
+                    <h3>Legal</h3>
+                    <a href="">Terms of use</a>
+                    <a href="">Privacy Policy</a>
+                    <a href="">Refunds & Returns</a>
+                    <a href="">Cookies Policy</a>
+                    <a href="">Security</a>
+                </div>
+                <div>
+                    <h3>Accepted Payment Methods</h3>
+                    <div id="payment">
+                        <a href=""><img src="./res/img/mastercard.png" alt=""></a>
+                        <a href=""><img src="./res/img/gPay.png" alt=""></a>
+                        <a href=""><img src="./res/img/afterpay.png" alt=""></a>
+                        <a href=""><img src="./res/img/visa.png" alt=""></a>
+                        <a href=""><img src="./res/img/aPay.png" alt=""></a>
+                        <a href=""><img src="./res/img/discover.png" alt=""></a>
+                        <a href=""><img src="./res/img/interac.png" alt=""></a>
+                        <a href="."><img src="/res/img/aExpress.png" alt=""></a>    
+                    </div>
+                </div>
+            </div>
+
+        </div> 
+        <div id="footer2">
+            <hr>
+            <p>All rights reseved. Use of this website signifies your agreement to or cookies policy, and terms of use. "Incredevent" is a trademark held by Sync Digital Solutions Inc.</p>
+        </div>
+    </div>
+    <script>
+        new Vue({
+            el: '#h1Left',
+            data: {
+                releaseFontSize: '', 
+            },
+            mounted() {
+                const release = document.getElementById('release');
+                setTimeout(() => {
+                    this.releaseFontSize = '0.7rem'; 
+                }, 1000);
+            },
+        });
+    </script>
+</body>
+</html>
